@@ -1,0 +1,15 @@
+.wrapper-box-info img{width:41%}
+.wrapper-box-info>div{width:53%}
+.wrapper-box-info .box-info .title{color:var(--blue);font-size:1.6vw}
+.wrapper-box-info .box-info{margin-bottom:2vw}
+@media (max-width:992px) {
+.wrapper-box-info .box-info .title{font-size:2.6vw}
+}
+@media (max-width:768px) {
+.wrapper-box-info .box-info .title{font-size:3.8vw}
+}
+@media (max-width: 576px) {
+.wrapper-box-info img{width:100%;width:100%;margin:4vw 0}
+.wrapper-box-info .box-info .title{font-size:6vw}
+.wrapper-box-info>div{width:100%}
+}

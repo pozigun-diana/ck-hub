@@ -1,0 +1,39 @@
+.banner-section .banner-box .title{margin:2vw 0}
+.banner-section .content .banner-box{width:100%;align-self:center}
+.banner-section>div{z-index:3;position:relative}
+.banner-section .banner-box *{color:#fff}
+.banner-section .banner-box h1{font-size:5vw}
+.banner-section .banner-box p{width:50%}
+.banner-section{position:relative}
+.banner-section .content{z-index:2}
+.before:before{content:"";display:block;width:100%;height:100%;z-index:1;background:#000;background:linear-gradient(90deg,rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 64%);position:absolute;top:0;left:0}
+.banner-section.start-page:before{background:linear-gradient(360deg,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%)}
+.banner-section .wrapper-btn{justify-content:flex-start;gap:0 2vw;margin:3vw 0}
+.banner-section .content{flex-wrap:wrap}
+.banner-section .content{flex-wrap:wrap}
+.banner-info-box .title{font-size:1.2vw;font-weight:700;margin-bottom:1vw;color:var(--blue)}
+.banner-info-box ul{margin-left:1.2vw}
+.banner-info-box ul li+li{margin-top:1vw}
+.banner-info-box{width:auto;align-self:flex-start;flex-grow:1}
+.banner-info-box ul li::marker{color:var(--blue)}
+.banner-section .banner-box h1{font-size:5vw;margin-bottom:3vw}
+.banner-info-box li,.banner-info-box p{color:#fff}
+.wrapper-banner-info{width:100%;padding:2vw 3.5vw;width:100%;margin-top:5vw;flex-wrap:nowrap}
+.all-categories{background:url(../../../img/banner3.jpg) no-repeat center;background-size:cover}
+@media all and (max-width:768px) {
+.banner-info-box .title{font-size:1.5vw}
+.banner-box.base-padding{padding:8vw 0}
+.banner-section .banner-box p{width:100%}
+.banner-section{background-position:70% 100%!important}
+.before:before {background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgb(0 0 0 / 37%) 64%);}
+}
+@media all and (max-width: 550px) {
+.banner-section .banner-box h1{font-size:9vw}
+.wrapper-banner-info{flex-direction:column;background:#2a2a2a;padding:7vw}
+.banner-info-box{width:100%;margin-bottom:6vw}
+.banner-info-box ul{margin-left:5vw}
+.banner-info-box .title{font-size:5vw;margin-bottom:4vw}
+.banner-box{padding:10vw 0}
+.banner-section .banner-box p{width:100%}
+.banner-section .wrapper-btn{margin:6vw 0}
+}

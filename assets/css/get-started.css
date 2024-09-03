@@ -1,0 +1,15 @@
+.wrapper-callback-form .input-box{width:49%}
+.form-text{margin:0 auto}
+.contact-us{background:#faf6fd;padding-bottom:0;position:relative}
+.contact-us .man{position:absolute;right:6vw;bottom:0;width:19vw}
+.form-text{margin:0 auto;max-width:42vw;padding-bottom:5vw}
+.contact-us .text-box{margin-bottom:0}
+.base-padding.contact-us{padding:4vw}
+@media (max-width:992px) {
+.form-text{max-width:initial}
+}
+@media all and (max-width: 550px) {
+.form-text{margin:0 auto;max-width:inherit;padding-bottom:5vw}
+.wrapper-callback-form .input-box{width:100%}
+.contact-us .man{position:initial;width:60%;margin:0 auto;display:block}
+}

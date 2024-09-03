@@ -1,0 +1,23 @@
+input[type="submit"]:disabled{opacity:.5;cursor:no-drop}
+form input,form textarea{width:100%;padding:1vw;border:1px solid #d1cdcd;margin-bottom:1vw;font-size:1vw;resize:none;border-radius:3px}
+form{margin-top:3vw}
+textarea{height:9vw}
+label.wrapper-label{flex-wrap:nowrap;justify-content:flex-start;align-items:center;cursor:pointer}
+label.wrapper-label input{width:auto;margin-bottom:0;margin-right:.5vw}
+label.wrapper-label a{color:var(--blue)}
+input:focus-visible{outline:0;border-color:var(--blue)}
+input:focus{outline:0;border-color:var(--blue)}
+input[type="checkbox"]:before{content:"\f00c";color:#fff;font:normal normal normal 14px/1 FontAwesome;position:absolute;top:.5vw;left:.5vw}
+input[type="checkbox"]{position:relative}
+@media (max-width:992px) {
+form input,form textarea{padding:2vw;font-size:1.7vw}
+}
+@media all and (max-width: 576px) {
+form input,form textarea{padding:2vw 1vw;font-size:1.5vw;margin-bottom:4vw;font-size:3.5vw;height:13vw;padding:0 3vw}
+form textarea{padding:2vw;height:26vw}
+input.btn{font-size:4.4vw}
+label.wrapper-label input{width:7vw;height:7vw;margin-right:1vw}
+.wrapper-callback-form .input-box{width:100%}
+.contact-us .man{position:initial;right:initial;bottom:initial;width:55%;margin:0 auto;display:block}
+label.wrapper-label{flex-wrap:nowrap;justify-content:flex-start;align-items:center;cursor:pointer;text-align:left;font-size:3.2vw;gap:1.5vw}
+}

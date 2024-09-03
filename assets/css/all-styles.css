@@ -1,0 +1,70 @@
+@import url('base.css');
+@import url('cap.css');
+@import url('banner.css');
+@import url('form.css');
+@import url('get-started.css');
+@import url('breadcrumb.css');
+@import url('box-info.css');
+@import url('stages.css');
+@import url('footer.css');
+@import url('slider.css');
+@import url('gallery.css');
+@import url('cookie.css');
+@import url('conacts.css');
+@import url('category.css');
+@import url('users.css');
+@import "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --blue: #82c5cb;
+    --color-1: #82c5cb;
+    --grey: #F7F7F7;
+    --bluedark: #0A4D83;
+    --color-2: #0A4D83;
+}
+
+input {
+    all: unset;
+}
+
+form input,
+form textarea {
+    text-align: left;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    text-align: center;
+}
+
+label.wrapper-label input:checked {
+    background: var(--blue);
+}
+
+.hidden {
+    display: none
+}
+
+.fancybox-button svg path {
+    fill: #fff!important
+}
+
+#feedback-form svg path {
+    fill: #000!important
+}
+
+ul p {
+    margin: 0
+}
+
+.error-page h1 {
+    font-size: 10vw;
+    line-height: 100%;
+    color: var(--blue)
+}
+
+.text-page ul {
+    margin: 2vw 1.5vw;
+    margin-right: 0
+}

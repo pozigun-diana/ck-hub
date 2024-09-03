@@ -1,0 +1,86 @@
+.header_logo{width:auto}
+.header_logo img{display:block;width:7vw;margin-top:-.5vw}
+.header_menu ul{display:flex;align-items:center;justify-content:space-around;width:100%}
+.header_menu{flex-grow:1}
+.header{padding:1vw 0}
+.header_menu ul li a{text-decoration:none;text-transform:uppercase;border-bottom:1px solid #fff}
+.header_menu ul li{list-style:none}
+.wrapper-links a{display:flex;align-items:center;justify-content:center;width:2vw;height:2vw;text-decoration:none;background:var(--bluedark);color:#fff;border-radius:3px}
+.header_menu ul li a:hover,.header_menu ul li.active a{border-color:var(--color-1)}
+.wrapper-links a:hover{background:var(--blue)}
+.header_mail a:hover i{color:var(--blue)}
+.header_contacts .wrapper-links a+a{margin-left:.5vw}
+.wrapper-header{gap:0 7vw}
+.header{padding:1vw 0;border-bottom:1px solid #d6d3d3}
+.header_contacts .wrapper-links a i{font-size:1.2vw}
+.header_contacts i.fa.fa-instagram{font-weight:700}
+.header_mail a{text-decoration:none;font-size:1.2vw}
+.header_mail a i{margin-right:.5vw;color:var(--color-1);font-weight:700}
+.header{transition:.5s}
+.header.fixed{position:fixed;top:0;left:0;width:100%;background:#fff;padding:.2vw 0;z-index:99}
+.header.fixed+.after{height:5.6vw}
+.header_logo a{display:flex;align-items:flex-end;justify-content:flex-start;gap:1vw;text-decoration:none}
+.header_logo span{font-size:1.2vw;font-weight:400}
+.header_logo .logo-title{line-height:130%;display:flex;flex-wrap:wrap;flex-direction:column}
+.wrapper-banner img{width:39vw}
+.wrapper-banner .banner-box{width:50vw}
+.wrapper-banner .banner-box p{line-height:150%}
+.wrapper-btn{justify-content:flex-start;gap:2vw}
+.banner-box h1{max-width:44vw}
+.wrapper-banner{padding:3vw 0}
+.base-banner{background:linear-gradient(352deg, rgb(84 169 248 / 11%) 20%, #fff 100%) }
+@media (max-width:992px) {
+.header_mail a{font-size:1.6vw}
+.header_logo span{font-size:1.5vw}
+.wrapper-header{gap:0 3vw}
+}
+@media (max-width:768px) {
+.wrapper-banner .banner-box{width:100%}
+#nav{display:none}
+.header_logo img{width:13vw;margin:0}
+.header_logo a{gap:4vw}
+.wrapper-banner{padding:5vw 0}
+.banner-box h1{max-width:initial}
+.banner-image img{width:100%}
+.banner-image{width:100%}
+.header_mail{display:none}
+.header_logo{width:auto;margin-bottom:2vw}
+.wrapper-links a{width:3vw;height:3vw}
+.header_contacts .wrapper-links a i{font-size:1.8vw}
+.header_logo span{font-size:2.5vw}
+#menu-icon{color:#fff;padding:0;margin:0!important;display:block;z-index:999;position:relative}
+.nav_info{display:block;text-align:right;padding:30px 40px 30px 0;color:grey}
+.nav_info a{font-size:24px!important}
+#nav ul,#nav ul li{display:block}
+#nav ul li{margin:.8rem 0;text-align:center}
+#nav{position:absolute;left:0;display:none;padding:1rem 0;background:#fff;width:100%;z-index:9;border-bottom:1px solid #dddada;top:0}
+#nav ul{max-width:800px;margin:0 auto;padding:0 20px}
+.header_menu{flex-grow:0;order:1}
+.c-hamburger{display:block;position:relative;margin:0;padding:0;width:30px;height:19px;font-size:0;text-indent:-9999px;appearance:none;box-shadow:none;border-radius:none;border:none;cursor:pointer;transition:background .3s;background:initial;border-radius:0}
+.c-hamburger:focus{outline:none}
+.c-hamburger span{display:block;position:absolute;top:7px;left:0;right:0;height:4px}
+.c-hamburger span::before,.c-hamburger span::after{position:absolute;display:block;left:0;width:100%;height:4px;background-color:#438508;content:""}
+.c-hamburger span::before,.c-hamburger span::after,.c-hamburger span,.c-hamburger.is-active span::before,.c-hamburger.is-active span::after,.c-hamburger.is-active span{background-color:var(--blue)}
+.c-hamburger span::before{top:-7px}
+.c-hamburger span::after{bottom:-7px}
+.c-hamburger--htx span{transition:background 0 .3s;transition-delay:0.3s,0}
+.c-hamburger--htx span::before,.c-hamburger--htx span::after{transition-duration:0.3s,.3s;transition-delay:0.3s,0}
+.c-hamburger--htx span::before{transition-property:top,transform}
+.c-hamburger--htx span::after{transition-property:bottom,transform}
+.active_icon .c-hamburger--htx span{background:none}
+.active_icon .c-hamburger--htx span::before{top:0;transform:rotate(45deg)}
+.active_icon .c-hamburger--htx span::after{bottom:0;transform:rotate(-45deg)}
+.active_icon .c-hamburger--htx span::before,.active_icon .c-hamburger--htx span::after{transition-delay:0s,.3s}
+}
+@media (max-width: 576px) {
+.header_logo{width:26vw}
+.wrapper-links a{width:7vw;height:7vw}
+.header_contacts .wrapper-links a i{font-size:3vw}
+section.banner-section.start-page{background-position:right bottom}
+.header.fixed{padding:2vw 0}
+.header_logo img{width:19vw;margin-top:-1.5vw}
+.header_logo span{font-size:3.5vw}
+.header_logo a{gap:4vw}
+.header_logo{width:auto}
+.header{padding:2vw 0}
+}
